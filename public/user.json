@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "gender": "Male",
+    "contact": "+1234567890",
+    "address": "123 Main St, City, Country",
+    "photoUrl": "https://example.com/john_doe.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "gender": "Female",
+    "contact": "+1987654321",
+    "address": "456 Elm St, Town, Country",
+    "photoUrl": "https://example.com/jane_smith.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Michael Johnson",
+    "gender": "Male",
+    "contact": "+1122334455",
+    "address": "789 Oak St, Village, Country",
+    "photoUrl": "https://example.com/michael_johnson.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Emily Davis",
+    "gender": "Female",
+    "contact": "+1555666777",
+    "address": "101 Pine St, Hamlet, Country",
+    "photoUrl": "https://example.com/emily_davis.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Christopher Wilson",
+    "gender": "Male",
+    "contact": "+1444333222",
+    "address": "202 Maple St, Village, Country",
+    "photoUrl": "https://example.com/christopher_wilson.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Sarah Brown",
+    "gender": "Female",
+    "contact": "+1777888999",
+    "address": "303 Cedar St, Town, Country",
+    "photoUrl": "https://example.com/sarah_brown.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Matthew Taylor",
+    "gender": "Male",
+    "contact": "+1666999888",
+    "address": "404 Birch St, City, Country",
+    "photoUrl": "https://example.com/matthew_taylor.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Amanda Martinez",
+    "gender": "Female",
+    "contact": "+1888999000",
+    "address": "505 Spruce St, Town, Country",
+    "photoUrl": "https://example.com/amanda_martinez.jpg"
+  },
+  {
+    "id": 9,
+    "name": "David Anderson",
+    "gender": "Male",
+    "contact": "+1999888777",
+    "address": "606 Oak St, City, Country",
+    "photoUrl": "https://example.com/david_anderson.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Jennifer Garcia",
+    "gender": "Female",
+    "contact": "+1888777666",
+    "address": "707 Elm St, Village, Country",
+    "photoUrl": "https://example.com/jennifer_garcia.jpg"
+  },
+  {
+    "id": 11,
+    "name": "James Rodriguez",
+    "gender": "Male",
+    "contact": "+1222333444",
+    "address": "808 Pine St, City, Country",
+    "photoUrl": "https://example.com/james_rodriguez.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Jessica Hernandez",
+    "gender": "Female",
+    "contact": "+1444222111",
+    "address": "909 Cedar St, Town, Country",
+    "photoUrl": "https://example.com/jessica_hernandez.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Daniel Lopez",
+    "gender": "Male",
+    "contact": "+1999111222",
+    "address": "1010 Birch St, City, Country",
+    "photoUrl": "https://example.com/daniel_lopez.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Ashley Gonzales",
+    "gender": "Female",
+    "contact": "+1555444333",
+    "address": "1111 Elm St, Hamlet, Country",
+    "photoUrl": "https://example.com/ashley_gonzales.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Ryan Perez",
+    "gender": "Male",
+    "contact": "+1777555444",
+    "address": "1212 Oak St, Village, Country",
+    "photoUrl": "https://example.com/ryan_perez.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Michelle Torres",
+    "gender": "Female",
+    "contact": "+1666888999",
+    "address": "1313 Pine St, Town, Country",
+    "photoUrl": "https://example.com/michelle_torres.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Kevin Flores",
+    "gender": "Male",
+    "contact": "+1999777888",
+    "address": "1414 Cedar St, City, Country",
+    "photoUrl": "https://example.com/kevin_flores.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Laura Ramirez",
+    "gender": "Female",
+    "contact": "+1888666777",
+    "address": "1515 Birch St, Village, Country",
+    "photoUrl": "https://example.com/laura_ramirez.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Eric Turner",
+    "gender": "Male",
+    "contact": "+1222111333",
+    "address": "1616 Elm St, City, Country",
+    "photoUrl": "https://example.com/eric_turner.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Stephanie Cruz",
+    "gender": "Female",
+    "contact": "+1555777888",
+    "address": "1717 Pine St, Town, Country",
+    "photoUrl": "https://example.com/stephanie_cruz.jpg"
+  }
+]
