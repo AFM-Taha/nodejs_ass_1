@@ -1,7 +1,7 @@
 const userRouts = require('./routes/users.routers.js')
+const PORT = process.env.PORT || 8080
 const express = require('express')
 const app = express()
-const PORT = 8080
 
 app.use(express.json())
 
