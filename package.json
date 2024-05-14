@@ -1,8 +1,14 @@
 {
   "name": "ass-1",
+  "version": "1.0.0",
+  "description": "node express testing",
+  "main": "index.js",
   "module": "index.js",
   "devDependencies": {
     "@types/bun": "latest"
+  },
+  "engines": {
+    "node": "18.x"
   },
   "scripts": {
     "start": "node index.js",
