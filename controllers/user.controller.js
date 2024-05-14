@@ -39,11 +39,10 @@ module.exports.saveAUser = async (req, res) => {
 
 // Update an users in json
 module.exports.updateAnUser = async (req, res) => {
-  const users = await getUsers()
-
   const { body, query } = req
-  const updatedData = body
+  const users = await getUsers()
   const userId = Number(query.id)
+  const updatedData = body
 
   const updatedUsers = users.map((user) => {
     if (user.id === userId) {
@@ -64,4 +63,27 @@ module.exports.updateAnUser = async (req, res) => {
   }
 
   res.send(updatedData)
+}
+
+// Delete an users in json
+module.exports.deleteAnUser = async (req, res) => {
+  const { query } = req
+  const users = await getUsers()
+  const userId = Number(query.id)
+  const updatedUsers = await users.filter((user) => user.id !== userId)
+
+  if (updatedUsers) {
+    fs.writeFile(
+      './public/user.json',
+      JSON.stringify(updatedUsers, null, 2),
+      (err) => {
+        console.log(err)
+      }
+    )
+  }
+
+  res.status(200).send({
+    success: true,
+    message: 'success',
+  })
 }

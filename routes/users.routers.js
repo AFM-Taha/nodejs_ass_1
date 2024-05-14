@@ -13,7 +13,10 @@ router.route('/all').get(userControllers.getAllUsers)
 // Save an users in json
 router.route('/save').post(userControllers.saveAUser)
 
-// Save an users in json
-router.route('/update').post(userControllers.updateAnUser)
+// Update an users in json
+router.route('/update').patch(userControllers.updateAnUser)
+
+// Delete an users in json
+router.route('/delete').delete(userControllers.deleteAnUser)
 
 module.exports = router
