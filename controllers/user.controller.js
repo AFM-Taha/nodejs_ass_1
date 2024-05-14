@@ -1,11 +1,6 @@
 const getUsers = require('../util/getUsers')
 const fs = require('fs').promises
 
-// Home Page
-module.exports.homePage = async (req, res) => {
-  res.status(200).send('The server is running')
-}
-
 // Random user from json
 module.exports.getRandomUser = async (req, res) => {
   const users = await getUsers()

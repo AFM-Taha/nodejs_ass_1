@@ -4,9 +4,6 @@ const express = require('express')
 
 const router = express.Router()
 
-// Home Route
-router.route('/').get(userControllers.homePage)
-
 // Random user from json
 router.route('/random').get(userControllers.getRandomUser)
 
