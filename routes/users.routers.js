@@ -10,7 +10,10 @@ router.route('/random').get(userControllers.getRandomUser)
 // All users from json
 router.route('/all').get(userControllers.getAllUsers)
 
-// Save a users in json
+// Save an users in json
 router.route('/save').post(userControllers.saveAUser)
+
+// Save an users in json
+router.route('/update').post(userControllers.updateAnUser)
 
 module.exports = router

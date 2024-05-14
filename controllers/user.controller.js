@@ -21,7 +21,7 @@ module.exports.getAllUsers = async (req, res) => {
   })
 }
 
-// Save a users in json
+// Save an users in json
 module.exports.saveAUser = async (req, res) => {
   const users = await getUsers()
 
@@ -35,4 +35,33 @@ module.exports.saveAUser = async (req, res) => {
     }
   )
   res.send(newUser)
+}
+
+// Update an users in json
+module.exports.updateAnUser = async (req, res) => {
+  const users = await getUsers()
+
+  const { body, query } = req
+  const updatedData = body
+  const userId = Number(query.id)
+
+  const updatedUsers = users.map((user) => {
+    if (user.id === userId) {
+      return { ...user, ...updatedData }
+    } else {
+      return user
+    }
+  })
+
+  if (updatedUsers) {
+    fs.writeFile(
+      './public/user.json',
+      JSON.stringify(updatedUsers, null, 2),
+      (err) => {
+        console.log(err)
+      }
+    )
+  }
+
+  res.send(updatedData)
 }

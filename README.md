@@ -1,15 +1,3 @@
-# ass-1
+# Update an user `/update`
 
-To install dependencies:
-
-```bash
-bun install
-```
-
-To run:
-
-```bash
-bun run index.js
-```
-
-This project was created using `bun init` in bun v1.1.4. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+http://localhost:8080/api/v1/user/update/?id=19
