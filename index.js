@@ -6,7 +6,9 @@ const app = express()
 app.use(express.json())
 
 app.get('/', (req, res) => {
-  res.send('The server is running, Bro!')
+  res.send(
+    `<p style={font-size:'40px',color:'red'}>The server is running, Bro!</p>`
+  )
 })
 
 app.use('/api/v1/user', userRouts)
