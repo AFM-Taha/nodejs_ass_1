@@ -16,6 +16,9 @@ router.route('/save').post(userControllers.saveAUser)
 // Update an users in json
 router.route('/update').patch(userControllers.updateAnUser)
 
+// Update Bulk User in json
+router.route('/bulk-update').patch(userControllers.updateBulkUser)
+
 // Delete an users in json
 router.route('/delete').delete(userControllers.deleteAnUser)
 

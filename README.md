@@ -14,6 +14,10 @@ http://localhost:8080/api/v1/user/save
 
 http://localhost:8080/api/v1/user/update/?id=19
 
+# Bulk-Update user `/bulk-update` [Patch]
+
+http://localhost:8080/api/v1/user/bulk-update
+
 # Delete an user `/delete` [Delete]
 
 http://localhost:8080/api/v1/user/update/?id=19

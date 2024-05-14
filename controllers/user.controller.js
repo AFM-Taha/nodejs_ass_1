@@ -64,6 +64,33 @@ module.exports.updateAnUser = async (req, res) => {
 
   res.send(updatedData)
 }
+//Update Bulk User in json
+module.exports.updateBulkUser = async (req, res) => {
+  const { body } = req
+  const users = await getUsers()
+
+  const updatedUsers = await users.map((user) => {
+    const isExist = body.find((u) => user.id === u.id)
+    if (isExist) {
+      return { ...user, ...isExist }
+    } else return user
+  })
+
+  if (updatedUsers) {
+    await fs.writeFile(
+      './public/user.json',
+      JSON.stringify(updatedUsers, null, 2),
+      (err) => {
+        console.log(err)
+      }
+    )
+  }
+
+  res.status(200).send({
+    success: true,
+    message: 'success',
+  })
+}
 
 // Delete an users in json
 module.exports.deleteAnUser = async (req, res) => {
