@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
 app.use('/api/v1/user', userRouts)
 
 app.all('*', (req, res) => {
-  res.send('Page not found!')
+  res.send('Route not found!')
 })
 
 app.listen(PORT)
