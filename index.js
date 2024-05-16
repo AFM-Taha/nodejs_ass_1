@@ -4,11 +4,10 @@ const express = require('express')
 const app = express()
 
 app.use(express.json())
+app.set('view engine', 'pug')
 
 app.get('/', (req, res) => {
-  res.send(
-    `<p style={{fontSize:'40px', color:'red'}}>The server is running, Bro!</p>`
-  )
+  res.render('index', { message: 'The server is running, Bro!' })
 })
 
 app.use('/api/v1/user', userRouts)
