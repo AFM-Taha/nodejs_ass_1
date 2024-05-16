@@ -7,7 +7,7 @@ app.use(express.json())
 app.set('view engine', 'pug')
 
 app.get('/', (req, res) => {
-  res.render('index', { message: 'The server is running, Bro!' })
+  res.send('Server is running!!')
 })
 
 app.use('/api/v1/user', userRouts)
