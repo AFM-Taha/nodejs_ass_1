@@ -7,7 +7,7 @@ app.use(express.json())
 
 app.get('/', (req, res) => {
   res.send(
-    `<p style={font-size:'40px',color:'red'}>The server is running, Bro!</p>`
+    `<p style={{fontSize:'40px', color:'red'}}>The server is running, Bro!</p>`
   )
 })
 
